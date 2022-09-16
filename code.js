@@ -16,3 +16,6 @@ function remove_acento (verifi)
 if (senha == remove_acento(this.verifi.toLowerCase())) {
     window.location.href = "final.html"
 }
+else{
+    window.location.href = "index.html"
+}
